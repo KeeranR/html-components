@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body> 
+<form action="/forms-and-text-inputs.html">
+    <!-- This line of code is to make a text box to enter your home address -->
+    <label for="address"><b>Home Address:</b></label><br>
+    <input type="text" name="Address" placeholder="Please Enter Your Home Address" size="31" id="address"><br><br>
+
+    <!-- This line is to add a text box to add your postal code for your package -->
+    <label for="postal code"><u>Postal Code:</u></label><br>
+    <input type="text" name="Postal Code" placeholder="Please Enter Your Postal Code" size="31" id="postal code"><br><br>
+
+    <!-- Textbox to enter your city location for your package -->
+    <label for="city"><i>City:</i></label><br>
+    <input type="text" name="City" placeholder="Please enter your City" size="31" id="city"><br><br>
+
+    <!-- These lines are to show different options for your shipping method -->
+    <label for="shipping">Shipping Method</label><br>
+    <select>
+        <option value="standard">Standard Shipping</option>
+        <option value="twoday">Two Day Shipping</option>
+        <option value="oneday">One Day Shipping</option>
+    </select><br><br>
+
+    <!-- These lines of code is to choose your payment method -->
+    <label for="payment">Please Choose Your Payment Method</label><br>
+    <input type="radio" name="Payment Type" value="PayPal" checked>Paypal<br>
+    <input type="radio" name="Payment Type" value="Debit Card">Debit Card<br>
+    <input type="radio" name="Payment Type" value="Credit Card">Credit Card<br><br>
+
+   
+    <label for="comments">The Area Underneath Is For Comments</label><br>
+    <textarea name="comments" rows="4" cols="40"></textarea><br><br>
+
+    <label><input type="checkbox" name="password" checked>Save My Password</label><br>
+    <label><input type="checkbox" name="email" checked>Sign Me Up For E-Mail Updates</label><br>
+    <label><input type="checkbox" name="payment">Save My Payment Information</label><br><br>
+
+    <input type="submit" value="Submit"><br>
+</form>
+     
+</body>
+</html>
